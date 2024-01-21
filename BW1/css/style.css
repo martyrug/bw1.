@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+p, li {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg {
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    padding-left: 7%;
+}
+
+.logo {
+    margin-top: 20px;
+    background-image: url('../assets/epicode_logo.png');
+    width: 200px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    align-self: flex-start;
+}
+
+h1, h2 {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 5.5em;
+    margin: 10px 0;
+    margin-bottom: 40px;
+    font-weight: normal;
+    line-height: 0.8;
+}
+
+h1 strong {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin: 10px 0;
+    color: #C2128D;
+}
+
+#istructionParagraph{
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+ul {
+    font-size: 19px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 2px solid #fff; 
+    appearance: none; 
+}
+
+
+input[type="checkbox"]:checked {
+    background-color: #00bfff; 
+}
+
+.checkbox label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.proceed-button {
+    padding: 16px 40px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #0C002D;
+    background-color: #00ffff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 200px;
+    box-shadow: 0 0 25px rgb(69, 218, 215);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proceed-button:hover {
+    box-shadow: 0 0 30px rgb(69 219 216);; 
+}
